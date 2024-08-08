@@ -1,5 +1,13 @@
 
-reverse = {}
+reverse = {"Msisdn.telekom.ro": {           // Domain of the cf worker
+        "protocol": "https",         // HTTP or HTTPS, protocol of the original site
+        "host": "en.wikipedia.org",  // Target domain
+        "replace": {                //Replace string for all json/html/text/javascript through this proxy
+            "Wiki": "Uncyclo",
+        },
+        "reverse": {                 // Additional reverse proxy for for custom resource, such as picture
+            "/static/images/project-logos/enwiki.png": "https://images.uncyclomedia.co/uncyclopedia/en/b/bc/Wiki.png"
+        },
 
 target = {} //Temporary variable, do not edit
 
