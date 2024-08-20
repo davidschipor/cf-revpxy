@@ -1,5 +1,5 @@
 
-reverse = {"msisdn.telekom.ro": {           // Domain of the cf worker
+reverse = {"reverse.davidsch.online": {           // Domain of the cf worker
         "protocol": "http",         // HTTP or HTTPS, protocol of the original site
         "host": "msisdn.telekom.ro",  // Target domain
         "replace": {                //Replace string for all json/html/text/javascript through this proxy
