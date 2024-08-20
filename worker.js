@@ -1,6 +1,6 @@
 
-reverse = {"Msisdn.telekom.ro": {           // Domain of the cf worker
-        "protocol": "https",         // HTTP or HTTPS, protocol of the original site
+reverse = {"msisdn.telekom.ro": {           // Domain of the cf worker
+        "protocol": "http",         // HTTP or HTTPS, protocol of the original site
         "host": "en.wikipedia.org",  // Target domain
         "replace": {                //Replace string for all json/html/text/javascript through this proxy
             "Wiki": "Uncyclo",
